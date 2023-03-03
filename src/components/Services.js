@@ -7,6 +7,7 @@ import Button from './Button';
 import { FaBars } from 'react-icons/fa';
 import LinkButton from './LinkButton';
 import Data from './Data'
+import Fade from 'react-reveal/Fade';
 const Services = () => {
   return <div className='py-5' id='services'>
     <Heading text='services'text2='Our services'></Heading>
@@ -18,14 +19,16 @@ const Services = () => {
 
 
             return <Col lg={4} key={id} className='py-2'>
+            
               <div className='serviceBox p-5'>
+              <Fade bottom>
                 <img src={icon} className='service-icon mb-3'></img>
                 <h3>{title}</h3>
                 <p className='clear'>{text}</p>
                 <Button text="View more"  href={`/all-services/${oneService.id}`} />
-
+                </Fade>
                 </div>
-                
+               
             </Col>
            })
         }

@@ -4,11 +4,13 @@ import Button from './Button';
 import "./Land.css"
 import { FaGithub, FaInstagram} from 'react-icons/fa';
 import img1 from "../images/ft-img.webp"
+import Fade from 'react-reveal/Fade';
 
 const Formular = () => {
   return (
     <div className='py-5'>
       <Container>
+        <Fade left>
         <Row className='justify-content-between'>
             <Col lg={6}>
             <Form>
@@ -42,6 +44,7 @@ const Formular = () => {
 
             </Col>
         </Row>
+        </Fade>
       </Container>
     </div>
   )

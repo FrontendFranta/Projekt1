@@ -4,6 +4,7 @@ import Button from './Button'
 import Heading from './Heading'
 import sata from './Sata'
 import "./Projects.css"
+import Fade from 'react-reveal/Fade';
 
 const Projects = () => {
     const [projects, setProjects] = useState(sata);
@@ -28,6 +29,7 @@ setProjects(filteredProjects);
       <Container>
         <Heading text='projects' text2='our projects'></Heading>
         <Row className='justify-content-center text-center mb-5'>
+          <Fade left>
         <button onClick={() => setSelectedCategory(null)} className='category-button'>All</button>
         <button onClick={() => handleCategoryClick('Skyscraper')} className='category-button'>
         Skyscraper
@@ -36,13 +38,14 @@ setProjects(filteredProjects);
           Villa
         </button>
         <button onClick={() => handleCategoryClick('House')} className='category-button'>Houses</button>
-
+        </Fade>
         </Row>
         <Row>
            
         {projects.length ? (
           projects.map(project => (
             <Col lg={4} className='mb-4'>
+              <Fade>
             <div key={project.id} className="image">
                 <img className='image-img' src={project.img}></img>
                 <div className='image-overlay'>
@@ -50,6 +53,7 @@ setProjects(filteredProjects);
               
             </div>
             </div>
+            </Fade>
             </Col>
           ))
         ) : (
