@@ -31,8 +31,8 @@ window.addEventListener("scroll", scrollHeader);
     <div className={click ? 'navbar-nav active':'navbar-nav'}>
         <NavLink to="/Projekt1" className={({isActive})=> isActive ? "nav-link activeLink":"nav-link nonactiveLink"} onClick={closeMobileMenu}>Home</NavLink>
         <a className='nav-link' href='/Projekt1/#services'>Services</a>
-        <a className='nav-link' href='/#about'>About</a>
-        <a className='nav-link' href='/#projects'>Projects</a>
+        <a className='nav-link' href='/Projekt1/#about'>About</a>
+        <a className='nav-link' href='/Projekt1/#projects'>Projects</a>
         <NavLink to="/Contact" className={({isActive})=> isActive ? "nav-link activeLink":"nav-link nonactiveLink"} onClick={closeMobileMenu}>Contact</NavLink>
       </div>
       </div>
