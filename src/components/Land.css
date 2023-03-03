@@ -1,0 +1,19 @@
+.land-img{
+    height: 50vh;
+    background-image: url(https://preview.colorlib.com/theme/constructed/images/img_4.jpg.webp);
+    background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-position-y: 100% ;
+}
+.land-content h1{
+ font-weight: 900;
+    font-size: 4rem;
+}
+.contact-image{
+    width: 25%;
+    border-radius: 50%;
+}
+textarea {
+    resize: none;
+  }

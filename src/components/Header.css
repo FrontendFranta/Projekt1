@@ -1,0 +1,52 @@
+header{ 
+    height: 100%;
+    background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+}
+.header-content h1{
+  
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+   
+}
+.header-content p{
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+img{
+    width: 100%;
+    
+}
+header .card{
+    border: 0;
+}
+.muted{
+    background-color: #f8f9fa !important;
+}
+@media screen and (max-width: 992px){
+    img{
+        width: 100%;
+        
+    }
+}
+.sub-heading{
+    color: #eb1c24;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nadpis {
+    cursor: pointer; /* kurzor se změní na pointer, aby uživatel věděl, že nadpis je interaktivní */
+    transition: transform 0.2s ease-in-out; /* nastavení přechodu */
+  }
+  
+  .nadpis:hover {
+    transform: translateY(-5px); /* posune nadpis o 5px nahoru */
+  }
+ .mn{
+    color: #eb1c24;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+ }

@@ -1,0 +1,10 @@
+.footer-img{
+    background-image: url(../images/contact-img.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ft-ic{
+    font-size: 2rem;
+    
+}
