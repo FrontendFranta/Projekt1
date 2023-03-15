@@ -24,9 +24,9 @@ const Services = () => {
                 <img src={icon} className='service-icon mb-3'></img>
                 <h3>{title}</h3>
                 <p className='clear'>{text}</p>
-                <a href={`/all-services/${oneService.id}`}>
+                <Link to={`/all-services/${oneService.id}`}>
   <Button text="View more" />
-</a>
+</Link>
                 </Fade>
                 </div>
                
