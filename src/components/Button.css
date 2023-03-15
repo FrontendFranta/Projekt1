@@ -16,3 +16,15 @@
     box-shadow: inset  250px 0 0 #ffff;
     
 }
+.page-button:hover a{
+    color: #eb1c24;
+    box-shadow: inset  250px 0 0 #ffff;
+    
+}
+.service-button{
+    background-color: #eb1c24;
+    
+    color: white;
+  border-radius: 5px;
+    border: 0;
+}

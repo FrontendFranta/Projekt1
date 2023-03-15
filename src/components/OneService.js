@@ -35,7 +35,7 @@ const OneService = () => {
   
    </Container>
    </div>
-   <Footer></Footer>
+ 
    </>
   )
 }
