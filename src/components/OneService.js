@@ -6,7 +6,7 @@ import { Row, Container, Col } from 'react-bootstrap';
 import Footer from './Footer';
 const OneService = () => {
     const {serviceId} = useParams()
-
+    console.log(serviceId);
     const oneSpecificService = services.find((service)=>{
         return service.id === parseInt(serviceId)
     })
@@ -14,6 +14,7 @@ const OneService = () => {
     if (!oneSpecificService){
         return <div>Service not found</div>
     }
+    
     const { icon, title, text, text2 } = oneSpecificService
   return (
    <>

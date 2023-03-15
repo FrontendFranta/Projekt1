@@ -11,6 +11,7 @@ function App() {
 
   <Routes>
     <Route path="Projekt1" element={ <Home /> } />
+    
     <Route path="all-services/:serviceId" element={<OneService/>}/>
   </Routes>
  
