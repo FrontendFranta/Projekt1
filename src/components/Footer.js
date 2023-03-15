@@ -5,6 +5,7 @@ import { FaGithub, FaInstagram} from 'react-icons/fa';
 import img1 from "../images/ft-img.webp"
 import Fade from 'react-reveal/Fade';
 import Heading from './Heading'
+import "./Footer.css"
 const Footer = () => {
   return (
     <footer className='py-5 bg-light' id='contact'>
