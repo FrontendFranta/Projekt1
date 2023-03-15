@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./Navigation.css"
 import { FaBars, FaRegTimesCircle, FaTypo3 } from 'react-icons/fa';
 import {NavLink} from "react-router-dom"
-import { Link } from 'react-router-dom';
+import { Link} from "react-scroll";
 
 const Navigation = () => {
     const [click, setClick] = useState(false);
@@ -30,12 +30,14 @@ window.addEventListener("scroll", scrollHeader);
         </div>
 
         <div className={click ? 'navbar-nav active':'navbar-nav'}>
-        <NavLink to="/Projekt1/" className={({isActive})=> isActive ? "nav-link activeLink":"nav-link nonactiveLink"} onClick={closeMobileMenu}>Home</NavLink>
-        <a href="/Projekt1/#services" className="nav-link" onClick={closeMobileMenu}>Services</a>
-
-        <a className='nav-link' href='/Projekt1/#about'>About</a>
-        <a className='nav-link' href='/Projekt1/#projects'>Projects</a>
-        <NavLink to="/Contact" className={({isActive})=> isActive ? "nav-link activeLink":"nav-link nonactiveLink"} onClick={closeMobileMenu}>Contact</NavLink>
+    
+        
+        <a className='nav-link' href='/Projekt1/#home' onClick={closeMobileMenu}>Home</a>
+        <a className='nav-link' href='/Projekt1/#services'onClick={closeMobileMenu}>Services</a>
+        <a className='nav-link' href='/Projekt1/#about'onClick={closeMobileMenu}>About</a>
+        <a className='nav-link' href='/Projekt1/#projects'onClick={closeMobileMenu}>Projects</a>
+        <a className='nav-link' href='/Projekt1/#contact'onClick={closeMobileMenu}>Contact</a>
+       
       </div>
       </div>
  </nav>

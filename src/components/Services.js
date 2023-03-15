@@ -4,7 +4,6 @@ import Heading from './Heading';
 import {Link} from "react-router-dom"
 import { Row, Container, Col } from 'react-bootstrap';
 import Button from './Button';
-import { FaBars } from 'react-icons/fa';
 import LinkButton from './LinkButton';
 import Data from './Data'
 import Fade from 'react-reveal/Fade';

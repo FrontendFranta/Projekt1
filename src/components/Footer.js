@@ -1,53 +1,52 @@
 import React from 'react'
-import "./Footer.css"
-import { Row, Container, Col, Card } from 'react-bootstrap';
-import { FaPhoneAlt, FaMapMarkerAlt, FaMailBulk, FaTwitter } from 'react-icons/fa';
+import { Form,  Container, Row, Col } from "react-bootstrap";
 import Button from './Button';
+import { FaGithub, FaInstagram} from 'react-icons/fa';
+import img1 from "../images/ft-img.webp"
 import Fade from 'react-reveal/Fade';
+import Heading from './Heading'
 const Footer = () => {
   return (
-    <footer className='py-5 footer-img text-white'>
+    <footer className='py-5 bg-light' id='contact'>
       <Container>
-        <Fade up>
-        <Row className='align-items-center justify-content-between'>
-          <Col lg={4}>
-          <span className='sub-heading mb-5'>Contact</span>
-            <h2>Contact us</h2>
-            <p className='mb-5'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+        <Fade left>
+      <Heading text='contact' text2='contact us'/></Fade>
+        <Row className='justify-content-between'>
+            <Col lg={5}>
+                <Fade top>
+            <Form className='mb-5'>
 
-            <Row className='mb-5 text-center'>
-            <Col lg={6} className='mb-3'>
-             
-             <FaPhoneAlt className='ft-ic mb-3'/> <br/>
-             <span>+421 777 888 999</span>
-            </Col>
-              <Col lg={6} className='mb-3'>
-              
-              <FaMapMarkerAlt className='ft-ic mb-3'/><br/>
-              <span>Košice, Frýdecká 78</span>
-            </Col>
+<Form.Group controlId="formBasicName" className='mb-4'>
+  <Form.Label>Vaše jméno</Form.Label>
+  <Form.Control type="text" placeholder="Pepa Novák" required />
+</Form.Group>
 
-              <Col lg={6} className='mb-3'>
-              
-              <FaMailBulk className='ft-ic mb-3'/><br/>
-              <span>LKTV@gmail.com</span>
-            </Col>
+<Form.Group controlId="formBasicEmail"  className='mb-4'>
+  <Form.Label>Vaše emailová adresa</Form.Label>
+  <Form.Control type="email" placeholder="PepaN@gmail.com" required/>
+</Form.Group>
 
-              <Col lg={6} className='mb-3'>
-              
-              <FaTwitter className='ft-ic mb-3'/><br/>
-              <span>LKTV</span>
-            </Col>
-            
-            </Row>
-           
-          </Col>
+<Form.Group controlId="formBasicMessage"  className='mb-4'>
+  <Form.Label>Zpráva</Form.Label>
+  <Form.Control as="textarea" rows={5} required placeholder="Mám dotaz ohledně výškových budov" />
+</Form.Group>
 
-          <Col lg={6}>
-          <iframe className='mapa' title="Mapa Google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98955.1150742869!2d18.228254696973533!3d49.679990847225014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713f725179c0af5%3A0x400af0f66150440!2zRnLDvWRlay1Nw61zdGVr!5e0!3m2!1scs!2scz!4v1677601551458!5m2!1scs!2scz" width="100%" height="450" style={{ border: "0" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-          </Col>
+<button className='page-button' type='sumbit'>Odeslat</button>
+</Form>
+</Fade>
+            </Col>
+            <Col lg={6}>
+                <Fade bottom>
+            <div className='contant-content'>
+              <img src={img1} className='contact-image mb-3'></img>
+              <h2>Ing. Rob Clark</h2>
+              <p className='mb-3'>Im manager. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum</p>
+             <a href='https://Github.com'><FaGithub className='ft-ic mn'></FaGithub></a>
+             <a href='https://Instagram.com'><FaInstagram className='ft-ic mn'></FaInstagram></a>
+              </div>
+              </Fade>
+            </Col>
         </Row>
-        </Fade>
       </Container>
     </footer>
   )

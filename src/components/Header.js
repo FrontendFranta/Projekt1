@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 
 const Header = () => {
   return (
-    <header>
+    <header id='home'>
       
        <Card>
         <Row className='g-0 align-items-center h-100 muted'>
