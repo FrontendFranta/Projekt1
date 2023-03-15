@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Projekt1/static/css/main.ca20e9b3.css",
+    "main.css": "/Projekt1/static/css/main.8ca4123e.css",
     "main.js": "/Projekt1/static/js/main.efd70559.js",
     "static/js/787.c1112931.chunk.js": "/Projekt1/static/js/787.c1112931.chunk.js",
     "static/media/pro6.webp": "/Projekt1/static/media/pro6.6f1449ebecd317b36ab2.webp",
@@ -10,6 +10,7 @@
     "static/media/ft-bg.webp": "/Projekt1/static/media/ft-bg.1d0f667ff9ca3ba71bb7.webp",
     "static/media/pro4.webp": "/Projekt1/static/media/pro4.1d0f667ff9ca3ba71bb7.webp",
     "static/media/pro2.webp": "/Projekt1/static/media/pro2.e255d99e6789469b3e1c.webp",
+    "static/media/contact-img.webp": "/Projekt1/static/media/contact-img.4f888c0546a867913ed5.webp",
     "static/media/icon4.svg": "/Projekt1/static/media/icon4.70b72dbbd39c7b167331c598f63c45fb.svg",
     "static/media/icon5.svg": "/Projekt1/static/media/icon5.21ca8cb8b11983d019495c033164c5ec.svg",
     "static/media/ft-img.webp": "/Projekt1/static/media/ft-img.136e53f8c15f0989dbc6.webp",
@@ -19,12 +20,12 @@
     "static/media/icon2.svg": "/Projekt1/static/media/icon2.c4e26d5e367abe4c17c0af8e66eee548.svg",
     "static/media/icon6.svg": "/Projekt1/static/media/icon6.9d5284f2f6802f86fc3ffed30fd7af6f.svg",
     "index.html": "/Projekt1/index.html",
-    "main.ca20e9b3.css.map": "/Projekt1/static/css/main.ca20e9b3.css.map",
+    "main.8ca4123e.css.map": "/Projekt1/static/css/main.8ca4123e.css.map",
     "main.efd70559.js.map": "/Projekt1/static/js/main.efd70559.js.map",
     "787.c1112931.chunk.js.map": "/Projekt1/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca20e9b3.css",
+    "static/css/main.8ca4123e.css",
     "static/js/main.efd70559.js"
   ]
 }
