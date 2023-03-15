@@ -25,7 +25,7 @@ const Services = () => {
                 <h3>{title}</h3>
                 <p className='clear'>{text}</p>
                 <a href={`/all-services/${oneService.id}`}>
-  <Button text="View moree" />
+  <Button text="View more" />
 </a>
                 </Fade>
                 </div>
