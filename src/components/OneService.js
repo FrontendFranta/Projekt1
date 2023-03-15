@@ -21,12 +21,10 @@ const OneService = () => {
   <Navigation/>
   <div className='py-5'>
     <Container>
-        <Row className='align-items-center justify-content-between'>
-            <Col lg={3}>
-            <img src={icon} className=' mb-3'></img>
-            </Col>
+        <Row className='align-items-center justify-content-center'>
+            
             <Col lg={8}>
-                
+            <img src={icon} className='mb-3 w-25'></img>  
    <h2>{title}</h2>
    <p>{text}</p>
    <p>{text2}</p>
