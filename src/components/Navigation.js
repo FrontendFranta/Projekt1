@@ -23,7 +23,7 @@ window.addEventListener("scroll", scrollHeader);
   return (
     <nav className={header ? 'navbar navbar-expand-lg scroll sticky-top':'navbar navbar-expand-lg   sticky-top'}>
     <div className='container'>
-    <a className='navbar-brand'>TRVL. <FaTypo3/> </a>
+    <a className='navbar-brand' href='/Projekt1/#home'>TRVL. <FaTypo3/> </a>
 
     <div className='menu-icon' onClick={handleClick}>
             {click? <FaRegTimesCircle/>:<FaBars/>}
