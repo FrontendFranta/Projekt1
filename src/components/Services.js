@@ -21,12 +21,14 @@ const Services = () => {
             
               <div className='serviceBox p-5'>
               <Fade bottom>
+               
                 <img src={icon} className='service-icon mb-3'></img>
+              
                 <h3>{title}</h3>
                 <p className='clear'>{text}</p>
               
-                <button className='page-button'><Link className='redfix' to={`/all-services/${oneService.id}`}>View more</Link></button>
-              
+               <Link  to={`/all-services/${oneService.id}`} className='redfix'><button className='page-button'>View more</button></Link>
+             
                 </Fade>
                 </div>
                
