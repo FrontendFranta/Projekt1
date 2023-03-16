@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import members from './Data2';
 import "./Members.css"
 import Heading from './Heading';
+import Fade from 'react-reveal/Fade';
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 const Members = () => {
 const [index, setIndex]= useState(0)
@@ -36,15 +37,17 @@ setIndex ( (index)=>{
 
   return (
    <div className='py-5 ' id='members'>
-    <Heading text='members'text2='Our members'></Heading>
+   <Fade left>
+    <Heading text='members'text2='Our members'></Heading></Fade>
     <div className='container'>
    <div className='row justify-content-center align-items-center text-center'>
     
     <div className='col-lg-4'>
+        <Fade>
     <img src={img} className='mb-4 member-img'></img>
     <h2>{nadpis}</h2>
     <p>{zprava}</p>
-    
+    </Fade>
     </div>
 
    
