@@ -28,8 +28,8 @@ const OneService = () => {
                 
             <img src={icon} className='mb-3 w-25 border-img'></img>  
            
-   <h2>{title}</h2>
-   <p>{text}</p>
+   <h2 className='mb-4'>{title}</h2>
+
    <p>{text2}</p>
             </Col>
         </Row>
