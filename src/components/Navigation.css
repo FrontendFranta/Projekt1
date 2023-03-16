@@ -10,6 +10,9 @@
     text-decoration: none;
     font-weight: 600;
 }
+.navbar a:hover{
+    color: #eb1c24!important;
+}
 
 .activeLink{
     color: #eb1c24!important;
