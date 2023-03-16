@@ -36,6 +36,7 @@ window.addEventListener("scroll", scrollHeader);
         <a className='nav-link' href='/Projekt1/#services'onClick={closeMobileMenu}>Services</a>
         <a className='nav-link' href='/Projekt1/#about'onClick={closeMobileMenu}>About</a>
         <a className='nav-link' href='/Projekt1/#projects'onClick={closeMobileMenu}>Projects</a>
+        <a className='nav-link' href='/Projekt1/#members'onClick={closeMobileMenu}>Members</a>
         <a className='nav-link' href='/Projekt1/#contact'onClick={closeMobileMenu}>Contact</a>
        
       </div>

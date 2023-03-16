@@ -42,8 +42,7 @@ const Footer = () => {
               <img src={img1} className='contact-image mb-3'></img>
               <h2>Ing. Rob Clark</h2>
               <p className='mb-3'>Im manager. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum</p>
-             <a href='https://Github.com'><FaGithub className='ft-ic mn'></FaGithub></a>
-             <a href='https://Instagram.com'><FaInstagram className='ft-ic mn'></FaInstagram></a>
+          
               </div>
               </Fade>
             </Col>

@@ -1,0 +1,28 @@
+.left-button{
+    right: 95%;
+  }
+  .right-button{
+    left: 95%;
+  }
+  @media screen and (max-width: 756px){
+    .left-button{
+        right: 90%;
+      }
+      .right-button{
+        left: 90%;
+      }
+  }
+  .member-img{
+    width: 35%;
+    border-radius: 50%;
+  }
+  .py-5 {
+    position: relative;
+  }
+  
+  .py-5 svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+  }
