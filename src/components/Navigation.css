@@ -9,6 +9,7 @@
     color: black;
     text-decoration: none;
     font-weight: 600;
+    cursor: pointer;
 }
 .navbar a:hover{
     color: #eb1c24!important;
@@ -31,7 +32,9 @@
     font-size: 1rem;
     display: none;
 }
-
+.active{
+    color: #eb1c24!important;
+}
 
 @media screen and (max-width: 992px){
     .navbar{

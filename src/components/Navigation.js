@@ -31,13 +31,29 @@ window.addEventListener("scroll", scrollHeader);
 
         <div className={click ? 'navbar-nav active':'navbar-nav'}>
     
-        
-        <a className='nav-link' href='/Projekt1/#home' onClick={closeMobileMenu}>Home</a>
-        <a className='nav-link' href='/Projekt1/#services'onClick={closeMobileMenu}>Services</a>
-        <a className='nav-link' href='/Projekt1/#about'onClick={closeMobileMenu}>About</a>
-        <a className='nav-link' href='/Projekt1/#projects'onClick={closeMobileMenu}>Projects</a>
-        <a className='nav-link' href='/Projekt1/#members'onClick={closeMobileMenu}>Members</a>
-        <a className='nav-link' href='/Projekt1/#contact'onClick={closeMobileMenu}>Contact</a>
+        <li class="nav-item">
+  <Link className='nav-link' activeClass="active"  spy to="home" onClick={closeMobileMenu}>Home </Link>
+  </li>
+       
+  <li class="nav-item">
+  <Link className='nav-link' activeClass="active"  spy to="services" onClick={closeMobileMenu}>Services </Link>
+  </li>
+
+  <li class="nav-item">
+  <Link className='nav-link' activeClass="active"  spy to="about" onClick={closeMobileMenu}>About </Link>
+  </li>
+
+  <li class="nav-item">
+  <Link className='nav-link' activeClass="active"  spy to="projects" onClick={closeMobileMenu}>Projects </Link>
+  </li>
+
+  <li class="nav-item">
+  <Link className='nav-link' activeClass="active"  spy to="members" onClick={closeMobileMenu}>Members </Link>
+  </li>
+
+  <li class="nav-item">
+  <Link className='nav-link' activeClass="active"  spy to="contact" onClick={closeMobileMenu}>Contact</Link>
+  </li>
        
       </div>
       </div>
